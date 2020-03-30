@@ -12,8 +12,8 @@ import java.util.ArrayList;
  */
 public class AppTest 
 {
-    /*@Test
-    public void test_1(){
+    @Test
+    public void test(){
         Vendeur v1 = new Vendeur(16);
         Vendeur v2 = new Vendeur(45);
         Employe e1 = new Employe(2008);
@@ -28,6 +28,6 @@ public class AppTest
          SalaireTotal += listeEmploye.get(i).salaire();
         }
         System.out.println("Le salaire total est de : " + SalaireTotal);
-        assertTrue(SalaireTotal == 7530.0);
-    }*/
+        assertTrue(SalaireTotal == 7381.0);
+    }
 }
